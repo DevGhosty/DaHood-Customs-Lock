@@ -119,3 +119,14 @@ oldIndex = hookmetamethod(game, "__index", function(self, Index, Screw)
 	end
 	return oldIndex(self, Index, Screw)
 end)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Hood Customs Lock";
+Text = "Script successfully loaded!",
+Duration = 5;
+})
+wait(.5)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Hood Customs Lock";
+Text = "Made by : zxGhosty",
+Duration = 6;
+})
